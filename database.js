@@ -35,7 +35,7 @@ let Author=[
         
     }
 ];
-let Publications=[
+let Publication=[
     {
         id: 1,
         name: "Gyan Publications",
@@ -47,3 +47,5 @@ let Publications=[
         books: ["12345One"],
     }
 ];
+
+module.exports = {Book, Author, Publication};
