@@ -1,13 +1,13 @@
 const express = require("express");
 
 //database
-const Database = require("/.database");
+const Database = require('./database');
 
 //initialization
 const ourApp = express();
 
 ourApp.get("/", (request, response) => {
-    response.json({message: "Server is working!!!!" });
+    response.json({message: "I am Billu SHANDA" });
 });
 
 ourApp.get("/book", (req, res) => {
