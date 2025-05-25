@@ -13,12 +13,12 @@ let Book =[
     {
         ISBN: "12345Two",
         title: "Getting Started with Python",
-        authors: [1, 2, 3],
+        authors: [1],
         language: "en",
         pubDate: "01-02-2025",
         numOfPage: 721,
         category: ["Science", "fiction", "Technology", "Programming", "Web Dev" ],
-        publication: 1
+        publication: 2
     },
 ];
 let Author=[
